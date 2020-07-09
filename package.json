@@ -1,0 +1,30 @@
+{
+  "name": "static-json-db",
+  "version": "0.0.2",
+  "description": "The Native Jamstack Database. A NoSQL key-value database stored as a directory tree of small JSON files which can be deployed as part of a static website and queried from client browsers in an efficient manner.",
+  "main": "index.js",
+  "files": [
+    "browser.js"
+  ],
+  "homepage": "https://github.com/jlxw/static-json-db",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlxw/static-json-db.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "static",
+    "json",
+    "db",
+    "jamstack",
+    "nosql"
+  ],
+  "author": "Jason Ling Xiaowei",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "slugid": "^2.0.0"
+  }
+}

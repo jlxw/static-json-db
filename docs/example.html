@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <script src="https://jlxw.github.io/static-json-db/static-json-db.min.js"></script>
+    <script>
+      const db = new StaticJsonDb(new URL('data',window.location));
+      (async () => {
+        console.log(await db.get('key1')) // Hello World1
+        console.log(await db.getAll()) // {key1: "Hello World1", abc: "def"}
+      })();
+    </script>
+  </head>
+</html>
