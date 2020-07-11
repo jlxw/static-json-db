@@ -4,7 +4,7 @@
 ## The Native Jamstack Database.
 [![Build Status](https://github.com/jlxw/static-json-db/workflows/Test/badge.svg)](https://github.com/jlxw/static-json-db/actions?query=workflow%3ATest)
 
-A NoSQL key-value database stored as a directory tree of small JSON files which can be deployed as part of a static website and queried from client browsers in an efficient manner. Minified JS for browser ~1.5KB.
+A NoSQL key-value database stored as a directory tree of small JSON files which can be deployed as part of a static website and queried from client browsers in an efficient manner. Data is stored in JSON files which are branched into smaller JSON files as size tresholds are met. Minified JS for browser ~1.5KB.
 
 ### Demo / Proof of Concept
   - [www.playliststar.com](https://www.playliststar.com/)
